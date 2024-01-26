@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "Player_TTToe.h"
 using namespace std;
 
         /*
@@ -26,12 +27,12 @@ class game{
     private:
         //variables    
         bool end_game = false; // signal to end the game
-        int turn_counter = 0
-        int player_count = 0
-        bool CATS == false; // used for case of a tie
+        int turn_counter = 0;
+        int player_count = 0;
+        bool CATS = false; // used for case of a tie
     public:
         bool tplayers[]; // keeps track of who's turn it is
-        bool players[]; // array of players.
+        Player players[]; // array of players.
         int board[];// an array to hold each place on the board
         
         
